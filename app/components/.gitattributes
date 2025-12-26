@@ -1,0 +1,10 @@
+# Normalisation des fichiers texte
+* text=auto
+
+# JS / TS toujours en LF
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+
+# Exclure node_modules
+node_modules/* -text
