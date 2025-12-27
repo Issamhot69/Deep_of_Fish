@@ -1,0 +1,56 @@
+{
+  "hero_title": "Deep_of_Fishへようこそ",
+  "hero_sub": "国際化と調和のために設計されたモジュール型多言語プラットフォーム。",
+  "cta_discover": "発見する",
+  "cta_collab": "私たちと協力する準備はできていますか？",
+  "cta_contact": "お問い合わせ",
+
+  "nav_home": "ホーム",
+  "nav_agents": "エージェント",
+  "nav_products": "製品",
+  "nav_linguistique": "言語学",
+  "nav_faq": "FAQ",
+  "nav_histoire": "歴史",
+  "nav_contact": "コンタクト",
+  "nav_services": "サービス",
+
+  "agents_title": "私たちのエージェント",
+  "agents_sub": "翻訳と分析のためのインテリジェントエージェントをご紹介します。",
+  "agent_translation": "翻訳エージェント",
+  "agent_translation_desc": "即時翻訳と多言語調和。",
+  "agent_analysis": "分析エージェント",
+  "agent_analysis_desc": "意味解析と不一致検出。",
+  "agent_automation": "自動化エージェント",
+  "agent_automation_desc": "多言語ワークフローの自動化。",
+
+  "products_title": "私たちの製品",
+  "products_sub": "国際化のためのモジュール型ソリューション。",
+
+  "faq_title": "よくある質問",
+  "faq_q1": "Deep_of_Fishはどのように機能しますか？",
+  "faq_r1": "専門エージェントを使用して多言語コンテンツを調和します。",
+  "faq_q2": "どの言語がサポートされていますか？",
+  "faq_r2": "フランス語、英語、スペイン語、ロシア語、日本語、中国語。",
+  "faq_q3": "すぐに展開できますか？",
+  "faq_r3": "はい、モジュール型でDocker対応のアーキテクチャにより可能です。",
+
+  "histoire_intro": "私たちの使命は国際化をシンプルでアクセス可能にすることです。",
+  "histoire_p1": "Deep_of_Fishは多言語プロジェクトのニーズに応えるために生まれました。",
+  "histoire_p2": "私たちはアクセス可能で普遍的な技術を信じています。",
+
+  "ling_title": "言語学",
+  "ling_sub": "分析、翻訳、多言語調和。",
+  "ling_analysis": "言語分析",
+  "ling_analysis_desc": "不一致を検出し、テキストを調和します。",
+  "ling_translation": "翻訳",
+  "ling_translation_desc": "即時かつ文脈に応じた翻訳。",
+
+  "services_title": "私たちのサービス",
+  "services_intro": "多言語プロジェクトを支援するための包括的なサービスを提供します。",
+  "service1_title": "サービス 1",
+  "service1_desc": "国際化と多言語管理に関するコンサルティング。",
+  "service2_title": "サービス 2",
+  "service2_desc": "多言語コンテンツの監査と最適化。",
+  "service3_title": "サービス 3",
+  "service3_desc": "チームのトレーニングとサポート。"
+}

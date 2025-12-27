@@ -1,23 +1,24 @@
-// app/components/Navbar.tsx
+"use client";
 import Link from "next/link";
+import FlagSelector from "./FlagSelector";
+import { useI18n } from "./i18n";
 
 export default function Navbar() {
-  return (
-    <header className="w-full border-b border-gray-200 bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
-        <div className="text-lg font-bold text-gray-800">
-          Deep_of_Fish
-        </div>
+  const { t } = useI18n();
 
-        {/* Navigation */}
-        <nav className="flex gap-6 text-sm text-gray-600">
-          <Link href="/" className="hover:text-gray-900">Accueil</Link>
-          <Link href="/agents" className="hover:text-gray-900">Agents</Link>
-          <Link href="/produits" className="hover:text-gray-900">Produits</Link>
-          <Link href="/contact" className="hover:text-gray-900">Contact</Link>
-        </nav>
+  return (
+    <nav className="flex items-center justify-between px-6 py-4 bg-gray-100 shadow">
+      {/* Liens de navigation */}
+      <div className="flex space-x-6 text-gray-800 font-medium">
+        <Link href="/">{t("nav_home")}</Link>
+        <Link href="/agents">{t("nav_agents")}</Link>
+        <Link href="/products">{t("nav_products")}</Link>
+        <Link href="/contact">{t("nav_contact")}</Link>
       </div>
-    </header>
+
+      {/* Sélecteur de langue */}
+      <FlagSelector />
+    </nav>
   );
 }
+

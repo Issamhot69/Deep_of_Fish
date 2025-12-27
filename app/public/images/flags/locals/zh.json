@@ -1,0 +1,56 @@
+{
+  "hero_title": "欢迎来到 Deep_of_Fish",
+  "hero_sub": "一个为国际化和和谐而设计的模块化多语言平台。",
+  "cta_discover": "探索",
+  "cta_collab": "准备好与我们合作了吗？",
+  "cta_contact": "联系我们",
+
+  "nav_home": "首页",
+  "nav_agents": "代理",
+  "nav_products": "产品",
+  "nav_linguistique": "语言学",
+  "nav_faq": "常见问题",
+  "nav_histoire": "历史",
+  "nav_contact": "联系",
+  "nav_services": "服务",
+
+  "agents_title": "我们的代理",
+  "agents_sub": "发现我们的智能代理，用于翻译和分析。",
+  "agent_translation": "翻译代理",
+  "agent_translation_desc": "即时翻译和多语言协调。",
+  "agent_analysis": "分析代理",
+  "agent_analysis_desc": "语义分析和不一致检测。",
+  "agent_automation": "自动化代理",
+  "agent_automation_desc": "多语言工作流程自动化。",
+
+  "products_title": "我们的产品",
+  "products_sub": "用于国际化的模块化解决方案。",
+
+  "faq_title": "常见问题",
+  "faq_q1": "Deep_of_Fish 如何工作？",
+  "faq_r1": "它通过专门的代理协调您的多语言内容。",
+  "faq_q2": "支持哪些语言？",
+  "faq_r2": "法语、英语、西班牙语、俄语、日语、中文。",
+  "faq_q3": "我可以快速部署吗？",
+  "faq_r3": "可以，得益于模块化和支持 Docker 的架构。",
+
+  "histoire_intro": "我们的使命是让国际化变得简单和易于访问。",
+  "histoire_p1": "Deep_of_Fish 诞生是为了满足多语言项目的需求。",
+  "histoire_p2": "我们相信技术应该是普遍且可访问的。",
+
+  "ling_title": "语言学",
+  "ling_sub": "分析、翻译和多语言协调。",
+  "ling_analysis": "语言分析",
+  "ling_analysis_desc": "检测不一致并协调文本。",
+  "ling_translation": "翻译",
+  "ling_translation_desc": "即时且有上下文的翻译。",
+
+  "services_title": "我们的服务",
+  "services_intro": "我们提供全面的服务来支持您的多语言项目。",
+  "service1_title": "服务 1",
+  "service1_desc": "国际化和多语言管理咨询。",
+  "service2_title": "服务 2",
+  "service2_desc": "多语言内容的审计和优化。",
+  "service3_title": "服务 3",
+  "service3_desc": "团队培训和支持。"
+}
