@@ -1,50 +1,23 @@
 "use client";
-import { Metadata } from "next";
 import { useI18n } from "./components/i18n";
-
-export const metadata: Metadata = {
-  title: "Deep_of_Fish - Accueil",
-  description: "Une plateforme modulaire et multilingue, conçue pour l’internationalisation et l’harmonie."
-};
 
 export default function HomePage() {
   const { t } = useI18n();
 
   return (
-    <main className="font-sans">
-      {/* Hero */}
-      <section className="text-center py-20 bg-blue-50">
-        <h1 className="text-4xl font-bold">{t("hero_title")}</h1>
-        <p className="mt-4 text-lg text-gray-600">{t("hero_sub")}</p>
-        <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-          {t("cta_discover")}
-        </button>
-      </section>
+    <main className="px-8 py-16 max-w-5xl mx-auto">
+      <section className="text-center">
+        <h1 className="text-4xl font-bold text-blue-600">{t("hero_title")}</h1>
+        <p className="mt-4 text-gray-700">{t("hero_sub")}</p>
 
-      {/* Agents */}
-      <section className="px-8 py-16 text-center">
-        <h2 className="text-3xl font-semibold">{t("agents_title")}</h2>
-        <p className="mt-4 text-gray-600">{t("agents_sub")}</p>
-      </section>
-
-      {/* Linguistique */}
-      <section className="px-8 py-16 text-center">
-        <h2 className="text-3xl font-semibold">{t("ling_title")}</h2>
-        <p className="mt-4 text-gray-600">{t("ling_sub")}</p>
-      </section>
-
-      {/* Produits */}
-      <section className="px-8 py-16 text-center">
-        <h2 className="text-3xl font-semibold">{t("products_title")}</h2>
-        <p className="mt-4 text-gray-600">{t("products_sub")}</p>
-      </section>
-
-      {/* CTA */}
-      <section className="text-center py-16 bg-gray-50">
-        <h2 className="text-2xl font-bold mb-4">{t("cta_collab")}</h2>
-        <button className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700">
-          {t("cta_contact")}
-        </button>
+        <div className="mt-8 flex gap-4 justify-center">
+          <a href="/produits" className="px-4 py-2 bg-blue-600 text-white rounded">
+            {t("cta_discover")}
+          </a>
+          <a href="/contact" className="px-4 py-2 border border-blue-600 text-blue-600 rounded">
+            {t("cta_contact")}
+          </a>
+        </div>
       </section>
     </main>
   );
