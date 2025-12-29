@@ -3,18 +3,17 @@ import { createContext, useContext, useState, useEffect, ReactNode } from "react
 import fr from "@/locales/fr.json";
 import en from "@/locales/en.json";
 import es from "@/locales/es.json";
-import rus from "@/locales/rus.json";
-import ja from "@/locales/ja.json";
-import zh from "@/locales/zh.json";
 
-type Locale = "fr" | "en" | "es" | "rus" | "ja" | "zh";
-const messagesMap = { fr, en, es, rus, ja, zh };
+type Locale = "fr" | "en" | "es";
+const messagesMap = { fr, en, es };
 
-const I18nContext = createContext<{
+type I18nContextType = {
   locale: Locale;
   setLocale: (l: Locale) => void;
-  t: (k: keyof typeof fr) => string;
-} | null>(null);
+  t: (key: string) => string;
+};
+
+const I18nContext = createContext<I18nContextType | null>(null);
 
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [locale, setLocale] = useState<Locale>("fr");
@@ -28,13 +27,9 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     localStorage.setItem("locale", locale);
   }, [locale]);
 
-  const t = (key: keyof typeof fr) => messagesMap[locale][key] ?? key;
+  const t = (key: string) => messagesMap[locale][key] ?? key;
 
-  return (
-    <I18nContext.Provider value={{ locale, setLocale, t }}>
-      {children}
-    </I18nContext.Provider>
-  );
+  return <I18nContext.Provider value={{ locale, setLocale, t }}>{children}</I18nContext.Provider>;
 }
 
 export function useI18n() {

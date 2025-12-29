@@ -25,6 +25,12 @@
 
   "products_title": "我们的产品",
   "products_sub": "用于国际化的模块化解决方案。",
+  "product1_title": "DeepTranslate Pro",
+  "product1_desc": "先进的解决方案，可即时翻译和协调多语言内容。",
+  "product2_title": "DeepAnalyzer",
+  "product2_desc": "智能语义分析，用于检测不一致并优化文本。",
+  "product3_title": "DeepAutomate",
+  "product3_desc": "自动化多语言工作流程以节省时间并确保一致性。",
 
   "faq_title": "常见问题",
   "faq_q1": "Deep_of_Fish 如何工作？",

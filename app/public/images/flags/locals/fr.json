@@ -25,6 +25,12 @@
 
   "products_title": "Nos Produits",
   "products_sub": "Solutions modulaires pour l’internationalisation.",
+  "product1_title": "DeepTranslate Pro",
+  "product1_desc": "Une solution avancée pour traduire et harmoniser vos contenus multilingues instantanément.",
+  "product2_title": "DeepAnalyzer",
+  "product2_desc": "Analyse sémantique intelligente pour détecter les incohérences et optimiser vos textes.",
+  "product3_title": "DeepAutomate",
+  "product3_desc": "Automatisez vos workflows multilingues pour gagner du temps et assurer la cohérence.",
 
   "faq_title": "Questions fréquentes",
   "faq_q1": "Comment fonctionne Deep_of_Fish ?",

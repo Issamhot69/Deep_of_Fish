@@ -10,13 +10,17 @@ export const metadata: Metadata = {
 export default function HistoirePage() {
   const { t } = useI18n();
 
+  const paragraphs = [t("histoire_p1"), t("histoire_p2")];
+
   return (
     <main className="p-8 max-w-6xl mx-auto">
       <h1 className="text-3xl font-bold mb-6 text-blue-600">{t("nav_histoire")}</h1>
       <p className="text-gray-700 mb-6">{t("histoire_intro")}</p>
-      <section className="space-y-4">
-        <p>{t("histoire_p1")}</p>
-        <p>{t("histoire_p2")}</p>
+
+      <section className="space-y-4 text-gray-700">
+        {paragraphs.map((para, index) => (
+          <p key={index}>{para}</p>
+        ))}
       </section>
     </main>
   );

@@ -1,17 +1,13 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import "./styles/globals.css";
-import { I18nProvider } from "./components/i18n.tsx";
+import "./globals.css";
+import { I18nProvider } from "./components/i18n";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
-      <body className="font-sans">
+      <body className="font-sans bg-white text-gray-800">
         <I18nProvider>
           <Navbar />
           <main>{children}</main>

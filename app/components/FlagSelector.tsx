@@ -1,31 +1,28 @@
 "use client";
-import Image from "next/image";
-import { useI18n } from "./i18n.tsx";
-
-const flags = [
-  { code: "fr", label: "Français" },
-  { code: "en", label: "English" },
-  { code: "es", label: "Español" },
-  { code: "rus", label: "Русский" },
-  { code: "ja", label: "日本語" },
-  { code: "zh", label: "中文" },
-];
+import { useI18n } from "./i18n";
 
 export default function FlagSelector() {
-  const { setLocale } = useI18n();
+  const { lang, changeLang } = useI18n();
+
+  const flags = [
+    { code: "fr", label: "🇫🇷" },
+    { code: "en", label: "🇬🇧" },
+    { code: "es", label: "🇪🇸" },
+    { code: "ru", label: "🇷🇺" },
+    { code: "ja", label: "🇯🇵" },
+    { code: "zh", label: "🇨🇳" },
+  ];
 
   return (
-    <div className="flex space-x-2 ml-4">
-      {flags.map(flag => (
-        <Image
-          key={flag.code}
-          src={`/images/flags/${flag.code}.png`}
-          alt={flag.label}
-          width={24}
-          height={24}
-          className="cursor-pointer hover:scale-110 transition-transform"
-          onClick={() => setLocale(flag.code as any)}
-        />
+    <div className="flex gap-2">
+      {flags.map((f) => (
+        <button
+          key={f.code}
+          onClick={() => changeLang(f.code as any)}
+          className={`text-xl ${lang === f.code ? "opacity-100" : "opacity-50"}`}
+        >
+          {f.label}
+        </button>
       ))}
     </div>
   );
