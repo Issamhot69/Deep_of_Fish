@@ -4,7 +4,6 @@
   "cta_discover": "Discover",
   "cta_collab": "Ready to collaborate with us?",
   "cta_contact": "Contact us",
-
   "nav_home": "Home",
   "nav_agents": "Agents",
   "nav_products": "Products",
@@ -13,7 +12,6 @@
   "nav_histoire": "History",
   "nav_contact": "Contact",
   "nav_services": "Services",
-
   "agents_title": "Our Agents",
   "agents_sub": "Discover our intelligent agents for translation and analysis.",
   "agent_translation": "Translation Agent",
@@ -22,7 +20,6 @@
   "agent_analysis_desc": "Semantic analysis and inconsistency detection.",
   "agent_automation": "Automation Agent",
   "agent_automation_desc": "Automation of multilingual workflows.",
-
   "products_title": "Our Products",
   "products_sub": "Modular solutions for internationalization.",
   "product1_title": "DeepTranslate Pro",
@@ -31,7 +28,6 @@
   "product2_desc": "Intelligent semantic analysis to detect inconsistencies and optimize your texts.",
   "product3_title": "DeepAutomate",
   "product3_desc": "Automate multilingual workflows to save time and ensure consistency.",
-
   "faq_title": "Frequently Asked Questions",
   "faq_q1": "How does Deep_of_Fish work?",
   "faq_r1": "It harmonizes your multilingual content using specialized agents.",
@@ -39,18 +35,15 @@
   "faq_r2": "French, English, Spanish, Russian, Japanese, Chinese.",
   "faq_q3": "Can I deploy quickly?",
   "faq_r3": "Yes, thanks to a modular and Docker-ready architecture.",
-
   "histoire_intro": "Our mission is to make internationalization simple and accessible.",
   "histoire_p1": "Deep_of_Fish was created to meet multilingual project needs.",
   "histoire_p2": "We believe in accessible and universal technology.",
-
   "ling_title": "Linguistics",
   "ling_sub": "Analysis, translation and multilingual harmonization.",
   "ling_analysis": "Linguistic Analysis",
   "ling_analysis_desc": "Detect inconsistencies and harmonize texts.",
   "ling_translation": "Translation",
   "ling_translation_desc": "Instant and contextual translation.",
-
   "services_title": "Our Services",
   "services_intro": "We offer a full range of services to support your multilingual project.",
   "service1_title": "Service 1",

@@ -4,7 +4,6 @@
   "cta_discover": "Descubrir",
   "cta_collab": "¿Listo para colaborar con nosotros?",
   "cta_contact": "Contáctanos",
-
   "nav_home": "Inicio",
   "nav_agents": "Agentes",
   "nav_products": "Productos",
@@ -13,7 +12,6 @@
   "nav_histoire": "Historia",
   "nav_contact": "Contacto",
   "nav_services": "Servicios",
-
   "agents_title": "Nuestros Agentes",
   "agents_sub": "Descubre nuestros agentes inteligentes para traducción y análisis.",
   "agent_translation": "Agente de Traducción",
@@ -22,7 +20,6 @@
   "agent_analysis_desc": "Análisis semántico y detección de inconsistencias.",
   "agent_automation": "Agente de Automatización",
   "agent_automation_desc": "Automatización de flujos de trabajo multilingües.",
-
   "products_title": "Nuestros Productos",
   "products_sub": "Soluciones modulares para la internacionalización.",
   "product1_title": "DeepTranslate Pro",
@@ -31,7 +28,6 @@
   "product2_desc": "Análisis semántico inteligente para detectar inconsistencias y optimizar tus textos.",
   "product3_title": "DeepAutomate",
   "product3_desc": "Automatiza tus flujos de trabajo multilingües para ahorrar tiempo y garantizar consistencia.",
-
   "faq_title": "Preguntas Frecuentes",
   "faq_q1": "¿Cómo funciona Deep_of_Fish?",
   "faq_r1": "Armoniza tus contenidos multilingües usando agentes especializados.",
@@ -39,24 +35,13 @@
   "faq_r2": "Francés, Inglés, Español, Ruso, Japonés, Chino.",
   "faq_q3": "¿Puedo desplegar rápidamente?",
   "faq_r3": "Sí, gracias a una arquitectura modular y lista para Docker.",
-
   "histoire_intro": "Nuestra misión es hacer que la internacionalización sea simple y accesible.",
   "histoire_p1": "Deep_of_Fish fue creado para satisfacer las necesidades de proyectos multilingües.",
   "histoire_p2": "Creemos en una tecnología accesible y universal.",
-
   "ling_title": "Lingüística",
   "ling_sub": "Análisis, traducción y armonización multilingüe.",
   "ling_analysis": "Análisis Lingüístico",
   "ling_analysis_desc": "Detecta inconsistencias y armoniza los textos.",
   "ling_translation": "Traducción",
   "ling_translation_desc": "Traducción instantánea y contextual.",
-
-  "services_title": "Nuestros Servicios",
-  "services_intro": "Ofrecemos una gama completa de servicios para apoyar tu proyecto multilingüe.",
-  "service1_title": "Servicio 1",
-  "service1_desc": "Consultoría en internacionalización y gestión multilingüe.",
-  "service2_title": "Servicio 2",
-  "service2_desc": "Auditoría y optimización de contenidos multilingües.",
-  "service3_title": "Servicio 3",
-  "service3_desc": "Capacitación y soporte para equipos."
-}
+  "services_title

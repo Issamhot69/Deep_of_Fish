@@ -1,12 +1,47 @@
 "use client";
 import { useI18n } from "../components/i18n";
 
+function LanguageSwitcher() {
+  const { locale, setLocale } = useI18n();
+
+  return (
+    <div className="flex gap-2 justify-center mb-8">
+      <button
+        className={`px-4 py-2 rounded ${locale === "fr" ? "bg-blue-600 text-white" : "bg-gray-200"}`}
+        onClick={() => setLocale("fr")}
+      >
+        FR
+      </button>
+      <button
+        className={`px-4 py-2 rounded ${locale === "en" ? "bg-blue-600 text-white" : "bg-gray-200"}`}
+        onClick={() => setLocale("en")}
+      >
+        EN
+      </button>
+      <button
+        className={`px-4 py-2 rounded ${locale === "es" ? "bg-blue-600 text-white" : "bg-gray-200"}`}
+        onClick={() => setLocale("es")}
+      >
+        ES
+      </button>
+      <button
+        className={`px-4 py-2 rounded ${locale === "ru" ? "bg-blue-600 text-white" : "bg-gray-200"}`}
+        onClick={() => setLocale("ru")}
+      >
+        RU
+      </button>
+    </div>
+  );
+}
+
 export default function HomePage() {
   const { t } = useI18n();
 
   return (
     <main className="px-8 py-16 max-w-6xl mx-auto">
-      
+      {/* Language Switcher */}
+      <LanguageSwitcher />
+
       {/* Hero Section */}
       <section className="text-center">
         <h1 className="text-5xl font-bold text-blue-600">{t("hero_title")}</h1>
@@ -54,7 +89,6 @@ export default function HomePage() {
           {t("cta_contact")}
         </a>
       </section>
-
     </main>
   );
 }
